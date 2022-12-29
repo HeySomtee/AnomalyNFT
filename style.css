@@ -147,17 +147,18 @@ backdrop-filter: blur(5.3px);
 
 #collector
 {
-    display: grid;
+    display: none;
+    /* display: grid; */
     font-size: x-large;
     margin-top: 5vh;
     height: 70vh; width: 70vw;
-    display:grid;
     place-content: center;
     padding: 10px;
     background-color: rgba(41, 214, 55, 0.068);
     background-image: url(https://pbs.twimg.com/media/Fk0OrDCWIAAM2En?format=jpg&name=medium);
     background-repeat: no-repeat;
     box-shadow: rgb(233, 20, 37) 0px 20px 30px -10px;
+    overflow: scroll;
 }
 
 #inner-nav

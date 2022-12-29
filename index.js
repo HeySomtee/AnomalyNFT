@@ -16,6 +16,7 @@ open.addEventListener("click", openUp);
 function openUp(params) {
     // alert("hello world")
     win.style.display = "block"
+
 }
 
 close_btn.addEventListener("click", closeUp);
@@ -26,11 +27,14 @@ function closeUp(params) {
 about_ID.addEventListener("click", aboutFill);
 function aboutFill(params) {
     container.innerHTML = about_area.innerHTML;
+    container.style.display = "grid";
 }
 
 team_ID.addEventListener("click", teamFill);
 function teamFill(params) {
     container.innerHTML = team_area.innerHTML;
+    container.style.display = "grid";
+
     // container.style.backgroundImage = "https://pbs.twimg.com/media/FkkJkSBXwAA1yFk?format=jpg&name=medium"
     
 }
@@ -38,4 +42,6 @@ function teamFill(params) {
 sneak_ID.addEventListener("click", sneakFill);
 function sneakFill(params) {
     container.innerHTML = sneak_area.innerHTML;
+    container.style.display = "grid";
+
 }
